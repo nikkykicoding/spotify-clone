@@ -1,0 +1,119 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Caprasimo&family=Noto+Sans+KR:wght@100&family=Poppins&family=Roboto+Slab&family=Roboto:wght@300&family=Ysabeau+Infant:ital,wght@0,100;0,300;1,300&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Poppins', sans-serif;
+}
+nav ul li{
+    padding: 0 12px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.brand img{
+
+width:  63px;
+padding: 02px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight:bolder ;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.container
+{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+  width: 75%;
+    border-radius: 12px;
+    background-image: url(bg.jpeg);
+    background-attachment: fixed;
+}
+
+.bottom
+{
+
+
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    cursor: pointer;
+}
+#mypb{
+    width: 85vw;
+    cursor: pointer;
+   
+}
+
+.song-item{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 80%;
+    margin: 12px 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 42px;
+
+}
+.song-item img{
+    width: 35px;
+    margin: 12px ;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 24px;
+}
+.song-item i{
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+}
+.songinfo{
+
+    color: white;
+   
+
+}
+
+.gif{
+    position: absolute;
+    opacity: 0;
+    transition: 0.2s ease;
+
+
+    left: 5vw;
+    top: 3vw;
+}
